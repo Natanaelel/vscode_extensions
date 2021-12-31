@@ -1,0 +1,605 @@
+{
+	"not yet implemented": {
+		"prefix": "todo",
+		"body": "\n ¤ ¦ † ‡ ∂ ≈ ≡ \\ \" # % & ' ( ) * + , - . / 0-9 : ; < = > ? Γ Ξ Ψ δ η φ χ ψ ω £ ƒ Ċ Ṡ « »"
+	},
+	"halve": {
+		"prefix": " halve",
+		"body": "½"
+	},
+	"span": {
+		"prefix": " span",
+		"body": "↕"
+	},
+	"take": {
+		"prefix": " take",
+		"body": "↑"
+	},
+	"drop": {
+		"prefix": " drop",
+		"body": "↓"
+	},
+	"reverse": {
+		"prefix": " reverse",
+		"body": "↔"
+	},
+	"first": {
+		"prefix": [" first", " head"],
+		"body": "←"
+	},
+	"last": {
+		"prefix": " last",
+		"body": "→"
+	},
+	"iterate": {
+		"prefix": " iterate",
+		"body": "¡"
+	},
+	"twice": {
+		"prefix": " twice",
+		"body": "‼"
+	},
+	"range": {
+		"prefix": " range",
+		"body": "…"
+	},
+	"divmod": {
+		"prefix": " divmod",
+		"body": "‰"
+	},
+	"sqrt": {
+		"prefix": " sqrt",
+		"body": "√"
+	},
+	"less than or equal": {
+		"prefix": " leq",
+		"body": "≤"
+	},
+	"Greater than or equal": {
+		"prefix": " geq",
+		"body": "≥"
+	},
+	"sign": {
+		"prefix": " sign",
+		"body": "±"
+	},
+	"cumsum": {
+		"prefix": " cumsum",
+		"body": "∫"
+	},
+	"repeat": {
+		"prefix": " repeat",
+		"body": "∞"
+	},
+	"not equal": {
+		"prefix": " neq",
+		"body": "≠"
+	},
+	"not": {
+		"prefix": " not",
+		"body": "¬"
+	},
+	"div": {
+		"prefix": " div",
+		"body": "÷"
+	},
+	"cross": {
+		"prefix": " cross",
+		"body": "×"
+	},
+	"average": {
+		"prefix": " average",
+		"body": "A"
+	},
+	"base": {
+		"prefix": " base",
+		"body": "B",
+		"description": "num -> base -> [digit]"
+	},
+	"cut": {
+		"prefix": " cut",
+		"body": "C"
+	},
+	"double": {
+		"prefix": [" double", " isupcase"],
+		"body": "D"
+	},
+	"same": {
+		"prefix": " same",
+		"body": "E"
+	},
+	"fold": {
+		"prefix": " fold",
+		"body": "F"
+	},
+	"scan": {
+		"prefix": " scan",
+		"body": "G"
+	},
+	"id": {
+		"prefix": " id",
+		"body": "I"
+	},
+	"join": {
+		"prefix": " join",
+		"body": "J"
+	},
+	"constant": {
+		"prefix": [" constant", " void"],
+		"body": "K"
+	},
+	"length": {
+		"prefix": " length",
+		"body": "L"
+	},
+	"mapwith": {
+		"prefix": " mapwith",
+		"body": "M"
+	},
+	"natural": {
+		"prefix": " natural",
+		"body": "N",
+		"description": "[1, 2, 3 ...]"
+	},
+	"sort": {
+		"prefix": " sort",
+		"body": "O"
+	},
+	"permutation": {
+		"prefix": " permutation",
+		"body": "P"
+	},
+	"conssub": {
+		"prefix": " conssub",
+		"body": "Q"
+	},
+	"replicate": {
+		"prefix": " replicate",
+		"body": "R"
+	},
+	"hook": {
+		"prefix": " hook",
+		"body": "S"
+	},
+	"transpose": {
+		"prefix": " transpose",
+		"body": "T"
+	},
+	"uniq prefix": {
+		"prefix": [" uniqpre", " nubpre"],
+		"body": "U"
+	},
+	"indexby": {
+		"prefix": " indexby",
+		"body": "V"
+	},
+	"indicesby": {
+		"prefix": " indicesby",
+		"body": "W",
+		"description": "(x -> Bool) -> [x] -> [Int]"
+	},
+	"cons": {
+		"prefix": " cons",
+		"body": "X",
+		"description": "Int -> [x] -> [[x]]"
+	},
+	"maxof": {
+		"prefix": " maxof",
+		"body": "Y"
+	},
+	"power": {
+		"prefix": " power",
+		"body": "^"
+	},
+	"negate": {
+		"prefix": " negate",
+		"body": "_"
+	},
+	"flip": {
+		"prefix": " flip",
+		"body": "`"
+	},
+	"abs": {
+		"prefix": " abs",
+		"body": "a"
+	},
+	"char ord": {
+		"prefix": [" char", " ord"],
+		"body": "c"
+	},
+	"digits": {
+		"prefix": " digits",
+		"body": "d"
+	},
+	"list2": {
+		"prefix": " list2",
+		"body": "e"
+	},
+	"filter": {
+		"prefix": " filter",
+		"body": "f"
+	},
+	"group": {
+		"prefix": " group",
+		"body": "g"
+	},
+	"init": {
+		"prefix": " init",
+		"body": "h"
+	},
+	"parse_int round": {
+		"prefix": [" int", " round"],
+		"body": "i"
+	},
+	"keyon": {
+		"prefix": [" keyon", " groupby"],
+		"body": "k"
+	},
+	"map": {
+		"prefix": " map",
+		"body": "m"
+	},
+	"bitand": {
+		"prefix": " bitand",
+		"body": "n"
+	},
+	"compose": {
+		"prefix": " compose",
+		"body": "o"
+	},
+	"prime factors": {
+		"prefix": [" primefactor", " factor"],
+		"body": "p"
+	},
+	"read": {
+		"prefix": " read",
+		"body": "r"
+	},
+	"show string": {
+		"prefix": [" show", " string"],
+		"body": "s"
+	},
+	"tail": {
+		"prefix": " tail",
+		"body": "t"
+	},
+	"uniq": {
+		"prefix": [" uniq", " nub"],
+		"body": "u"
+	},
+	"bitor": {
+		"prefix": " bitor",
+		"body": "v"
+	},
+	"words unwords": {
+		"prefix": [" words", " unwords"],
+		"body": "w"
+	},
+	"split": {
+		"prefix": " split",
+		"body": "x"
+	},
+	"minof": {
+		"prefix": " minof",
+		"body": "y"
+	},
+	"zip zipwith": {
+		"prefix": [" zip", " zipwith"],
+		"body": "z"
+	},
+	"or": {
+		"prefix": " or",
+		"body": "|"
+	},
+	"branch": {
+		"prefix": " branch",
+		"body": "~",
+		"description": "Compose both arguments of binary function separately"
+	},
+	"compose2nd": {
+		"prefix": " compose2nd",
+		"body": "·",
+		"description": "Compose second argument of function"
+	},
+	"s0": {
+		"prefix": " s0",
+		"body": "₀"
+	},
+	"s1": {
+		"prefix": " s1",
+		"body": "₁"
+	},
+	"s2": {
+		"prefix": " s2",
+		"body": "₂"
+	},
+	"s3": {
+		"prefix": " s3",
+		"body": "₃"
+	},
+	"s4": {
+		"prefix": " s4",
+		"body": "₄"
+	},
+	"s5": {
+		"prefix": " s5",
+		"body": "₅"
+	},
+	"s6": {
+		"prefix": " s6",
+		"body": "₆"
+	},
+	"s7": {
+		"prefix": " s7",
+		"body": "₇"
+	},
+	"s8": {
+		"prefix": " s8",
+		"body": "₈"
+	},
+	"s9": {
+		"prefix": " s9",
+		"body": "₉"
+	},
+	"ceil": {
+		"prefix": " ceil",
+		"body": "⌈"
+	},
+	"lcm": {
+		"prefix": " lcm",
+		"body": "⌉"
+	},
+	"floor": {
+		"prefix": " floor",
+		"body": "⌊"
+	},
+	"gcd": {
+		"prefix": " gcd",
+		"body": "⌋"
+	},
+	"prependdefault": {
+		"prefix": " prependdefault",
+		"body": "Θ"
+	},
+	"all": {
+		"prefix": " all",
+		"body": "Λ"
+	},
+	"product": {
+		"prefix": [" product", " cartesianproduct", " cartesian", " factorial"],
+		"body": "Π"
+	},
+	"sum concat": {
+		"prefix": [" sum", " concat"],
+		"body": "Σ"
+	},
+	"until": {
+		"prefix": " until",
+		"body": "Ω"
+	},
+	"single": {
+		"prefix": [" single", " small"],
+		"body": "ε"
+	},
+	"lambda": {
+		"prefix": " lambda",
+		"body": "λ"
+	},
+	"lambda2": {
+		"prefix": " lambda2",
+		"body": "μ"
+	},
+	"lambda3": {
+		"prefix": " lambda3",
+		"body": "ξ"
+	},
+	"cartesian power": {
+		"prefix": [" cartesianpower", "cartesianrange", " pi"],
+		"body": "π"
+	},
+	"replace": {
+		"prefix": " replace",
+		"body": "σ"
+	},
+	"a0": {
+		"prefix": " a0",
+		"body": "⁰"
+	},
+	"a1": {
+		"prefix": " a1",
+		"body": "¹"
+	},
+	"a2": {
+		"prefix": " a2",
+		"body": "²"
+	},
+	"a3": {
+		"prefix": " a3",
+		"body": "³"
+	},
+	"a4": {
+		"prefix": " a4",
+		"body": "⁴"
+	},
+	"a5": {
+		"prefix": " a5",
+		"body": "⁵"
+	},
+	"a6": {
+		"prefix": " a6",
+		"body": "⁶"
+	},
+	"a7": {
+		"prefix": " a7",
+		"body": "⁷"
+	},
+	"a8": {
+		"prefix": " a8",
+		"body": "⁸"
+	},
+	"a9": {
+		"prefix": " a9",
+		"body": "⁹"
+	},
+	"cycle": {
+		"prefix": " cycle",
+		"body": "¢"
+	},
+	"index elem": {
+		"prefix": [" index", " elem"],
+		"body": "€"
+	},
+	"indices": {
+		"prefix": " indices",
+		"body": "¥"
+	},
+	"argdup": {
+		"prefix": " argdup",
+		"body": "´"
+	},
+	"max": {
+		"prefix": " max",
+		"body": "▲"
+	},
+	"min": {
+		"prefix": " min",
+		"body": "▼"
+	},
+	"maxby": {
+		"prefix": " maxby",
+		"body": "►"
+	},
+	"minby": {
+		"prefix": " minby",
+		"body": "◄"
+	},
+	"fork": {
+		"prefix": " fork",
+		"body": "§"
+	},
+	"divisors": {
+		"prefix": " divisors",
+		"body": "Ḋ"
+	},
+	"foldr": {
+		"prefix": " foldr",
+		"body": "Ḟ"
+	},
+	"scanr": {
+		"prefix": " scanr",
+		"body": "Ġ"
+	},
+	"seq": {
+		"prefix": " seq",
+		"body": "İ"
+	},
+	"mapwithleft": {
+		"prefix": " mapwithleft",
+		"body": "Ṁ"
+	},
+	"subsequences": {
+		"prefix": [" subsequences", " powerset"],
+		"body": "Ṗ"
+	},
+	"replicateeach": {
+		"prefix": " replicateeach",
+		"body": "Ṙ"
+	},
+	"table": {
+		"prefix": [" table"," outerproduct"],
+		"body": "Ṫ"
+	},
+	"cons2": {
+		"prefix": [" cons2", " cons3"],
+		"body": "Ẋ"
+	},
+	"base2": {
+		"prefix": " base2",
+		"body": "ḋ"
+	},
+	"list3": {
+		"prefix": " list3",
+		"body": "ė"
+	},
+	"find": {
+		"prefix": " find",
+		"body": "ḟ"
+	},
+	"chunk": {
+		"prefix": [" chunk", " chunkwhile", " groupon"],
+		"body": "ġ"
+	},
+	"heads": {
+		"prefix": [" heads", " prefixes", "range1"],
+		"body": "ḣ"
+	},
+	"lrange": {
+		"prefix": " lrange",
+		"body": "ŀ"
+	},
+	"flatmap concatmap": {
+		"prefix": [" flatmap", " concatmap"],
+		"body": "ṁ"
+	},
+	"compose3": {
+		"prefix": " compose3",
+		"body": "ȯ"
+	},
+	"prime": {
+		"prefix": " prime",
+		"body": "ṗ"
+	},
+	"rotate": {
+		"prefix": " rotate",
+		"body": "ṙ"
+	},
+	"symrange": {
+		"prefix": " symrange",
+		"body": "ṡ"
+	},
+	"tails": {
+		"prefix": [" tails", " suffixes", "reverserange"],
+		"body": "ṫ"
+	},
+	"zipkeep": {
+		"prefix": " zipkeep",
+		"body": "ż"
+	},
+	"compressed": {
+		"prefix": " compressed",
+		"body": "¨"
+	},
+	"all equal": {
+		"prefix": " allequal",
+		"body": "Ë",
+		"description": "Are function results all equal? Returns length + 1 or 0."
+	},
+	"sortby": {
+		"prefix": " sortby",
+		"body": "Ö"
+	},
+	"list4": {
+		"prefix": " list4",
+		"body": "ë"
+	},
+	"compose4": {
+		"prefix": " compose4",
+		"body": "ö"
+	},
+	"uniqby": {
+		"prefix": [" uniqby", " nubby"],
+		"body": "ü"
+	},
+	"empty": {
+		"prefix": " empty",
+		"body": "ø"
+	},
+	"square": {
+		"prefix": " square",
+		"body": "□"
+	},
+	"lines unlines": {
+		"prefix": [" lines", " unlines"],
+		"body": "¶"
+	}
+}

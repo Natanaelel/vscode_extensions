@@ -1,0 +1,46 @@
+{
+	"name": "husk",
+	"displayName": "Husk",
+	"description": "snippets for husk",
+	"version": "1.0.0",
+	"publisher": "Natanael",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"galleryBanner": {
+		"color": "#293845",
+		"theme": "dark"
+	},
+	"keywords": [
+		"language",
+		"husk",
+		"highlight",
+		"syntax",
+		"snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "husk",
+				"aliases": [
+					"Husk",
+					"husk"
+				],
+				"extensions": [
+					".husk"
+				],
+				"configuration": "./husk-configuration.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "husk",
+				"path": "./snippets/husk.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/json.json"
+			}
+		]
+	}
+}
