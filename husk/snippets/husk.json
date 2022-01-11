@@ -1,7 +1,7 @@
 {
 	"not yet implemented": {
 		"prefix": "todo",
-		"body": "\n ¤ ¦ † ‡ ∂ ≈ ≡ \\ \" # % & ' ( ) * + , - . / 0-9 : ; < = > ? Γ Ξ Ψ δ η φ χ ψ ω £ ƒ Ċ Ṡ « »"
+		"body": "\n ¤ † ‡ ∂ ≈ ≡ \" ' ( ) * + , - . 0-9 ? Γ Ξ Ψ δ η φ χ ψ ω £ ƒ « »"
 	},
 	"halve": {
 		"prefix": " halve",
@@ -24,12 +24,16 @@
 		"body": "↔"
 	},
 	"first": {
-		"prefix": [" first", " head"],
+		"prefix": [" first", " head", " succ", " decrement"],
 		"body": "←"
 	},
 	"last": {
-		"prefix": " last",
+		"prefix": [" last", " pred", " increment"],
 		"body": "→"
+	},
+	"bar": {
+		"prefix": " bar",
+		"body": "¦"
 	},
 	"iterate": {
 		"prefix": " iterate",
@@ -84,8 +88,58 @@
 		"body": "÷"
 	},
 	"cross": {
-		"prefix": " cross",
+		"prefix": [" cross", " pairs"],
 		"body": "×"
+	},
+	"atindex": {
+		"prefix": [" atindex", " at"],
+		"body": "!"
+	},
+	"inv": {
+		"prefix": [" inv", "swapcase"],
+		"body": "\\"
+	},
+	"count": {
+		"prefix": " count",
+		"body": "#"
+	},
+	"mod": {
+		"prefix": " mod",
+		"body": "%"
+	},
+	"and": {
+		"prefix": " and",
+		"body": "&"
+	},
+	"divide": {
+		"prefix": " divide",
+		"body": "/",
+		"description": "float division"
+	},
+	"cons": {
+		"prefix": [" cons", " push", " shift", " append", " prepend"],
+		"body": ":",
+		"description": [
+			"x -> [x] -> [x]",
+			"[x] -> x -> [x]"
+		]
+	},
+	"pure": {
+		"prefix": " pure",
+		"body": ";",
+		"description": "x -> [x]"
+	},
+	"less": {
+		"prefix": [" less", "lt"],
+		"body": "<"
+	},
+	"equals": {
+		"prefix": [" equals", "eq"],
+		"body": "="
+	},
+	"more": {
+		"prefix": [" more", "gt"],
+		"body": ">"
 	},
 	"average": {
 		"prefix": " average",
@@ -97,7 +151,7 @@
 		"description": "num -> base -> [digit]"
 	},
 	"cut": {
-		"prefix": " cut",
+		"prefix": [" cut", " slice"],
 		"body": "C"
 	},
 	"double": {
@@ -117,7 +171,7 @@
 		"body": "G"
 	},
 	"id": {
-		"prefix": " id",
+		"prefix": [" id", " identity"],
 		"body": "I"
 	},
 	"join": {
@@ -129,7 +183,7 @@
 		"body": "K"
 	},
 	"length": {
-		"prefix": " length",
+		"prefix": [" length", " size"],
 		"body": "L"
 	},
 	"mapwith": {
@@ -169,8 +223,8 @@
 		"prefix": [" uniqpre", " nubpre"],
 		"body": "U"
 	},
-	"indexby": {
-		"prefix": " indexby",
+	"indexby any": {
+		"prefix": [" indexby", " any"],
 		"body": "V"
 	},
 	"indicesby": {
@@ -178,7 +232,7 @@
 		"body": "W",
 		"description": "(x -> Bool) -> [x] -> [Int]"
 	},
-	"cons": {
+	"consec": {
 		"prefix": " cons",
 		"body": "X",
 		"description": "Int -> [x] -> [[x]]"
@@ -301,44 +355,44 @@
 		"body": "·",
 		"description": "Compose second argument of function"
 	},
-	"s0": {
-		"prefix": " s0",
+	"f0": {
+		"prefix": " f0",
 		"body": "₀"
 	},
-	"s1": {
-		"prefix": " s1",
+	"f1": {
+		"prefix": " f1",
 		"body": "₁"
 	},
-	"s2": {
-		"prefix": " s2",
+	"f2": {
+		"prefix": " f2",
 		"body": "₂"
 	},
-	"s3": {
-		"prefix": " s3",
+	"f3": {
+		"prefix": " f3",
 		"body": "₃"
 	},
-	"s4": {
-		"prefix": " s4",
+	"f4": {
+		"prefix": " f4",
 		"body": "₄"
 	},
-	"s5": {
-		"prefix": " s5",
+	"f5": {
+		"prefix": " f5",
 		"body": "₅"
 	},
-	"s6": {
-		"prefix": " s6",
+	"f6": {
+		"prefix": " f6",
 		"body": "₆"
 	},
-	"s7": {
-		"prefix": " s7",
+	"f7": {
+		"prefix": " f7",
 		"body": "₇"
 	},
-	"s8": {
-		"prefix": " s8",
+	"f8": {
+		"prefix": " f8",
 		"body": "₈"
 	},
-	"s9": {
-		"prefix": " s9",
+	"f9": {
+		"prefix": " f9",
 		"body": "₉"
 	},
 	"ceil": {
@@ -477,6 +531,11 @@
 		"prefix": " fork",
 		"body": "§"
 	},
+	"gaps": {
+		"prefix": [" gaps", " nth"],
+		"body": "Ċ",
+		"description": "take every n-th element, if negative, start from the end"
+	},
 	"divisors": {
 		"prefix": " divisors",
 		"body": "Ḋ"
@@ -505,6 +564,10 @@
 		"prefix": " replicateeach",
 		"body": "Ṙ"
 	},
+	"hookf": {
+		"prefix": " hookf",
+		"body": "Ṡ"
+	},
 	"table": {
 		"prefix": [" table"," outerproduct"],
 		"body": "Ṫ"
@@ -530,7 +593,7 @@
 		"body": "ġ"
 	},
 	"heads": {
-		"prefix": [" heads", " prefixes", "range1"],
+		"prefix": [" heads", " inits", " prefixes", "range1"],
 		"body": "ḣ"
 	},
 	"lrange": {

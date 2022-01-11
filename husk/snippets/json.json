@@ -1,0 +1,17 @@
+{
+    "new snippet": {
+        "prefix": "s",
+        "body": [
+            "\"$1\": {",
+            "\t\"prefix\": \" $1\",",
+            "\t\"body\": \"$2\"",
+            "}$0"
+        ]
+    },
+    "description": {
+        "prefix": "d",
+        "body": [
+            "\"description\": \"$0\""
+        ]
+    }
+}
