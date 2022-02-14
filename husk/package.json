@@ -32,6 +32,13 @@
 				"configuration": "./husk-configuration.json"
 			}
 		],
+		"grammars": [
+			{
+				"language": "husk",
+				"scopeName": "source.husk",
+				"path": "./syntaxes/husk.json"
+			}
+		],
 		"snippets": [
 			{
 				"language": "husk",
