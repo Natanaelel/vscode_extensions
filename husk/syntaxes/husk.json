@@ -1,0 +1,66 @@
+{
+    "name": "Husk",
+    "scopeName": "source.husk",
+    "patterns": [
+        {
+            "begin": "\"",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.string.begin.husk"
+				}
+			},
+			"end": "\"",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.string.end.husk"
+				}
+			},
+            "name": "string.double.husk",
+            "patterns": [
+                {
+                    "include": "#escaped_char"
+                }
+            ]
+        },
+        {
+            "match": "'.",
+            "name": "string.character.single.husk"
+        },
+        {
+            "match": "\\d+",
+            "name": "constant.numeric.husk"
+        },
+        {
+            "match": "[⁰¹²³⁴⁵⁶⁷⁸⁹]",
+            "name": "punctuation.section.embedded.arguments.husk"
+        },
+        {
+            "match": "[₀₁₂₃₄₅₆₇₈₉]",
+            "name": "punctuation.section.embedded.linelabels.husk"
+        },
+        {
+            "match": "İ.?|N",
+            "name": "variable.other.constant.husk"
+        },
+        {
+            "match": "[+\\-*/÷]",
+            "name": "keyword.operator.arithmetic.husk"
+        },
+        {
+            "match": "[mṁMṀfḟFḞpṗPṖXẊOÖ]",
+            "name": "support.function.husk"
+        },
+        {
+            "match": "[oȯö]",
+            "name": "keyword.control.husk"
+        }
+    ],
+    "repository": {
+        "escaped_char": {
+            
+                "match": "¶|¨|\\\\.",
+                "name": "constant.character.escape.husk"
+            
+        }
+    }
+}
